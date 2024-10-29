@@ -51,7 +51,7 @@ describe('Cadastro de usuario', () => {
 
     it('Cadastro com senha vazia', () => {
         cadastroPage.cadastrarUsuario(nome, email, null)
-        cadastroPage.validarLoginErro('O campo senha deve ter pelo menos 6 dígitos.')
+        cadastroPage.validarLoginErro('O campo senha deve ter pelo menos 6 dígitos')
     })
 
     it('Cadastro com tudo vazio', () => {
